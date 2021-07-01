@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="123456"/>
+    <parameter name="username" value="selenium"/>
+    <classes>
+      <class name="com.task.TestNGexample">
+        <methods>
+          <include name="url"/>
+          <include name="click"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.task.TestNGexample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
