@@ -30,4 +30,7 @@ public class TestNGexample extends TaskPOM{
 	public void click() {
 		btnClick(new TaskPOM().getFblogin());
 	}
+	public void click1() {
+		btnClick(new TaskPOM().getFblogin());
+	}
 }
